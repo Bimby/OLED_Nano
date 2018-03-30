@@ -4,6 +4,9 @@
 //  The library is under Copyright (c) 2016, olikraus@gmail.com
 //  Using this to set up an initial github repository only
 //  This display library is fantastic - but even this small program manages to use 55% of the NANOs 2K RAM. 
+//  Attach the OLED display VCC to a NANO 3.3V pin, GND to a NANO GND pin, SCL to NANO A5 and SDA to NANO A4
+//  Some displays can take a 5V VCC but why chance it?
+//  The program will also display the serial pins you need to use if you aren't using a NANO in the serial monitor.
 //  Kim Tyson - kimtyson450@gmail.com
 
 #include <Arduino.h>
